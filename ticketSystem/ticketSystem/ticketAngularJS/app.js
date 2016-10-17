@@ -4,6 +4,9 @@ app.config(function ($routeProvider) {
         .when("/", {
             templateUrl: "Home/Index"
         })
+         .when("/OpenTicket", {
+             templateUrl: "OpenTicket/OpenTicket"
+         })
         .otherwise({
             templateUrl: "/"
         })
