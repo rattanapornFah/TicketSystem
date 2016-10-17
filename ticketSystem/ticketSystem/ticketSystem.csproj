@@ -2826,9 +2826,6 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Template\fonts\._glyphicons-halflings-regular.eot" />
     <Content Include="Template\fonts\._glyphicons-halflings-regular.ttf" />
     <Content Include="Template\fonts\._glyphicons-halflings-regular.woff" />
