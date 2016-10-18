@@ -7,8 +7,11 @@ app.config(function ($routeProvider) {
          .when("/OpenTicket", {
              templateUrl: "OpenTicket/OpenTicket"
          })
-         .when("/allTicket", {
-             templateUrl: "AllTicket/allTicket"
+         .when("/AllTicket", {
+             templateUrl: "AllTicket/AllTicket"
+         })
+         .when("/ReplyTicket", {
+             templateUrl: "ReplyTicket/ReplyTicket"
          })
         .otherwise({
             templateUrl: "/"
