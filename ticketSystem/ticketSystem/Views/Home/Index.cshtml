@@ -14,9 +14,12 @@
     <link href="~/Template/vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
     <link href="~/Template/vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
     <link href="~/Template/vendors/socicon/socicon.min.css" rel="stylesheet">
-
+    <link href="~/Template/vendors/noUiSlider/jquery.nouislider.min.css" rel="stylesheet">
+    <link href="~/Template/vendors/farbtastic/farbtastic.css" rel="stylesheet">
+    <link href="~/Template/vendors/summernote/summernote.css" rel="stylesheet">
     <!-- CSS -->
-    <link href="~/Template/css/app.min.1.css" rel="stylesheet">
+   
+     <link href="~/Template/css/app.min.1.css" rel="stylesheet">
     <link href="~/Template/css/app.min.2.css" rel="stylesheet">
 
 </head>
@@ -317,7 +320,7 @@
 
                     <ul class="main-menu">
                         <li class="sub-menu">
-                            <a href=""><i class="md md-now-widgets"></i>Ticket</a>
+                            <a href="#/"><i class="md md-now-widgets"></i>Ticket</a>
 
                             <ul>
                                 <li><a href="#/OpenTicket">Open Ticket</a></li>
@@ -503,8 +506,10 @@
         </aside>
 
 
-        <section id="content" ng-view></section>
-
+        <section id="content" >
+            <div class="container" ng-view></div>
+        </section>
+      
     </section>
 
     <!-- Older IE warning message -->
@@ -575,11 +580,15 @@
     <script src="~/Template/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
     <script src="~/Template/vendors/sweet-alert/sweet-alert.min.js"></script>
 
-    <script src="~/Template/js/flot-charts/curved-line-chart.js"></script>
-    <script src="~/Template/js/flot-charts/line-chart.js"></script>
-    <script src="~/Template/js/charts.js"></script>
+    <script src="~/Template/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="~/Template/vendors/chosen/chosen.jquery.min.js"></script>
+    <script src="~/Template/vendors/input-mask/input-mask.min.js"></script>
+    <script src="~/Template/vendors/farbtastic/farbtastic.min.js"></script>
+    <script src="~/Template/vendors/summernote/summernote.min.js"></script>
+    <script src="~/Template/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+    <script src="~/Template/vendors/fileinput/fileinput.min.js"></script>
+    <script src="~/Template/vendors/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
 
-    <script src="~/Template/js/charts.js"></script>
     <script src="~/Template/js/functions.js"></script>
     <script src="~/Template/js/demo.js"></script>
 
