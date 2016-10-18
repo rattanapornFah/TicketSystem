@@ -13,6 +13,11 @@ namespace ticketSystem.Controllers
         {
             return View();
         }
+        public ActionResult NewsFeed()
+        {
+            return View();
+        }
+
 
 
 

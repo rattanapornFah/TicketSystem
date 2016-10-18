@@ -3601,6 +3601,7 @@
     <Content Include="scripts\version.json" />
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\OpenTicket\OpenTicket.cshtml" />
+    <Content Include="Views\Home\NewsFeed.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
