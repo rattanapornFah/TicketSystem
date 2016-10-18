@@ -3609,6 +3609,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\OpenTicketController.cs" />
+    <Compile Include="Controllers\ReplyTicketController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -4793,7 +4794,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\AllTicket\allTicket.cshtml" />
+    <Content Include="Views\AllTicket\AllTicket.cshtml" />
+    <Content Include="Views\ReplyTicket\ReplyTicket.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -4803,6 +4805,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Css\" />
     <Folder Include="Models\" />
     <Folder Include="Template\node_modules\grunt-contrib-nodeunit\node_modules\nodeunit\node_modules\tap\node_modules\coveralls\node_modules\request\node_modules\bl\node_modules\readable-stream\doc\" />
   </ItemGroup>

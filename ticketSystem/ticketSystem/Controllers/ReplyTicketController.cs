@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace ticketSystem.Controllers
 {
-    public class AllTicketController : Controller
+    public class ReplyTicketController : Controller
     {
-        // GET: AllTicket
-        public ActionResult AllTicket()
+        // GET: ReplyTicket
+        public ActionResult ReplyTicket()
         {
             return View();
         }
